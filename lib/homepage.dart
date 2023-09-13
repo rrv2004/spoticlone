@@ -4,6 +4,10 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(child: Text('Home',style: TextStyle(fontSize: 30,color: Colors.green)));
+    return SafeArea(child: Container(
+      decoration:BoxDecoration(
+        gradient: LinearGradient(colors: [Color.fromARGB(255, 44, 122, 160),Colors.black],begin: Alignment.topRight,end: Alignment.bottomLeft)
+      )
+    ));
   }
 }
