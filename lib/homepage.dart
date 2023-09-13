@@ -5,7 +5,7 @@ class Home extends StatelessWidget {
     return AppBar(
       backgroundColor: Colors.transparent,
       elevation:0.0,
-      title: Text(message),actions:  [Icon(Icons.notification_add,),Icon(Icons.timer),Padding(padding:EdgeInsets.only(right: 10), child:Icon(Icons.settings))],
+      title: Text(message),actions:  [Padding(padding:EdgeInsets.only(right: 10),child:Icon(Icons.notification_add,)),Padding(padding:EdgeInsets.only(right: 10),child:Icon(Icons.timer)),Padding(padding:EdgeInsets.only(right: 10), child:Icon(Icons.settings))],
     );
   }
 
