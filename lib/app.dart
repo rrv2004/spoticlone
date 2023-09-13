@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
               icon: Icon(Icons.search, color: Colors.white), label: 'Search'),
           BottomNavigationBarItem(
               icon: Icon(Icons.library_add, color: Colors.white),
-              label: 'Your Library'),
+              label: 'Your library'),
         ],
       ),
     );
